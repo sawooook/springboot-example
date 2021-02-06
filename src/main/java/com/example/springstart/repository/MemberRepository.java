@@ -3,6 +3,7 @@ package com.example.springstart.repository;
 import java.util.List;
 import java.util.Optional;
 import com.example.springstart.domain.Member;
+import org.springframework.stereotype.Repository;
 
 public interface MemberRepository {
     Member save(Member member);
