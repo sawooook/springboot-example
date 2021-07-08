@@ -15,6 +15,7 @@ public class MemoryMemberRepository implements MemberRepository {
     public Member save(Member member) {
         member.setId(++sequence);
         System.out.printf("fdfdfdfd");
+        System.out.printf("----------------");
         store.put(member.getId(), member);
         return member;
     }
